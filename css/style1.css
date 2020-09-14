@@ -1,0 +1,61 @@
+body {
+    margin: 0vw;
+    min-height: 100vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: darkgray;
+    flex-basis: 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main {
+    background-color: darkturquoise;
+    flex-basis: 0;
+    flex-grow: 3;
+    display: flex;
+}
+
+sidebar {
+    background-color: orange;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+article {
+    background-color: white;
+    flex-basis: 0;
+    flex-grow: 6;
+
+}
+
+footer {
+    background-color: lightgray;
+    flex-basis: 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    display: block;
+    font-size: 3rem;
+    color: white;
+    margin: 1rem 0rem;
+}
+
+article h1 {
+    color: black;
+}
+
+.cont_pad {
+    padding: 2rem;
+}
